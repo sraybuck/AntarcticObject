@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="tei_all.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="out/ObjectSector.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -213,6 +212,17 @@
                            Geophysical Year along with the years “<date when="1957">1957</date> -
                               <date when="1958">1958</date>”.</p>
                      </decoDesc>
+                  </physDesc>
+               </object>
+               <object>
+                  <objectIdentifier>
+                     
+                  </objectIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <p></p>
+                        <objectSector type="test">testtesttest</objectSector>
+                     </objectDesc>
                   </physDesc>
                </object>
             </listObject>

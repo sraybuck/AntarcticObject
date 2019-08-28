@@ -33,7 +33,6 @@
               <sequence>
                 <elementRef key="supportDesc" minOccurs="0"/>
                 <elementRef key="layoutDesc" minOccurs="0"/>
-                <elementRef key="objectSector" minOccurs="0"/>
               </sequence>
             </alternate>
           </content>
@@ -44,8 +43,16 @@
             concrete parts</desc>
           <classes>
             <memberOf key="model.physDescPart"/>
-            <memberOf key="att.coordinated"/>
+            <memberOf key="model.pLike"/>
+            <memberOf key="att.global"/>
+            <memberOf key="att.typed"/>
           </classes>
+          <content>
+            <macroRef key="macro.paraContent"/>
+          </content>
+          <attList>
+            <attDef ident="type" mode="change" usage="req"/>
+          </attList>
         </elementSpec>
       </schemaSpec>
     </body>

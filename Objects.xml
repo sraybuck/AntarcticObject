@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei_all.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="out/ObjectSector.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>
+            <listObject>
+               <object>
+                  <objectIdentifier>
+                     <country>United States of America</country>
+                     <institution>Florida State University</institution>
+                     <repository>FSU Special Collections</repository>
+                     <collection>Robert E Hancock Jr. Collection</collection>
+                     <objectName>Ceramic Penguin</objectName>
+                  </objectIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <p>The <objectType>figurine</objectType> stands about <height unit="inch"
+                              quantity="8">8 inches</height> in height and is composed of a penguin
+                           standing on top of a misshapen rock. It is made out of
+                              <material>ceramic</material> material and has a shiny, glazed surface.
+                           The penguin stands with its flippers placed on its hips, and its head
+                           cocked at a slight angle. Its feet are painted onto the rock it stands
+                           upon, which is grey/green, about <height unit="inch" quantity="2">2
+                              inches</height> tall, and textured with tiered grooves. This texturing
+                           leads to the rock being very misshapen on the sides but smooth on top.
+                           There are also small holes of about <dim unit="centimeter" quantity="1">1
+                              centimeter</dim> in diameter in various spots on the rock. The rock
+                           part of the figurine is hollow while the penguin is not. </p>
+                     </objectDesc>
+                     <decoDesc>
+                        <p>The penguin is decorated with black paint on its face and tips of its
+                           flippers, blue paint on its back and flippers, white on its stomach and a
+                           fine line of yellow where its head meets its back.</p>
+                     </decoDesc>
+                  </physDesc>
+               </object>
+               <object>
+                  <objectIdentifier>
+                     <country>United States of America</country>
+                     <institution>Florida State University</institution>
+                     <repository>FSU Special Collections</repository>
+                     <collection>Robert E Hancock Jr. Collection</collection>
+                     <objectName>Navy Plane Model</objectName>
+                  </objectIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <p>A lightweight <objectType>model</objectType> of the Ford Trimotor
+                           aircraft outfitted with skis. <damage>The model is missing its left
+                              landing ski and its central front propeller.</damage> The model is
+                           made out of some kind of <material>plastic</material> and its body and
+                           wings are painted to resemble silver, corrugated metal with visible
+                           riveting around the windows.</p>
+                     </objectDesc>
+                     <typeDesc>
+                        <p>On the top and underside of the right wing there is the identification
+                           number “NX4542” printed in large, bolded, red letters. On either side of
+                           the body of the plane there is the text “ANTARCTIC EXPEDITION” in
+                           capitalized, bolded letters. Beneath the Ford logo there is “TRI - MOTOR”
+                           in small, black bolded text.</p>
+                     </typeDesc>
+                     <decoDesc>
+                        <p>The nose of the plane is blue, the propellors have red tips and black
+                           blades, the landing skis are brown, and the motors are black. On either
+                           side of the vertical fin of the tail, there is the Ford company logo.</p>
+                     </decoDesc>
+                  </physDesc>
+               </object>
+               <object>
+                  <objectIdentifier>
+                     <country>United States of America</country>
+                     <institution>Florida State University</institution>
+                     <repository>FSU Special Collections</repository>
+                     <collection>Robert E Hancock Jr. Collection</collection>
+                     <objectName>Navy Icebreaker Model</objectName>
+                  </objectIdentifier>
+                  <physDesc>
+                     <p>A detailed <objectType>model</objectType> of a wind-class ice breaker ship.
+                        The hull of the ship is painted red while there is grey paint on the sides
+                        above the waterline and on the roof, the deck is a light tan color and the
+                        small propellers at the back of the ship are gold. The ship is labelled
+                        “GB3” in four places along the waterline of the ship, two at either side of
+                        the bow and two at the stern.</p>
+                     <!--deck-->
+                     <ab>Around the entire deck are small guard rails.</ab>
+                     <!--bow-->
+                     <ab>At the bow there is a large, gray, armored gun that sits in the center of
+                        the deck. Behind it are two smaller, black, unshielded guns.</ab>
+                     <!--starboard and port-->
+                     <ab>On the starboard and port sides there are lifeboats with cranes.</ab>
+                     <!--stern-->
+                     <ab>At the stern, there is a helipad and helicopter hangar with a small orange
+                        model of a Sikorsky naval helicopter. At the stern railing there is a small
+                        American flag flying. </ab>
+                     <!--center-->
+                     <ab>At the center of the ship there is a large radar unit, broken mast with a
+                        variety of maritime flags flying and a large ventilation shaft.</ab>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>There is an orange, plastic support underneatht the model so it
+                              can stand level. The support is T-shaped with poles extending from
+                              three end points on the T to meet the hull of the ship.</support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </object>
+               <object>
+                  <objectIdentifier>
+                     <country>United States of America</country>
+                     <institution>Florida State University</institution>
+                     <repository>FSU Special Collections</repository>
+                     <collection>Robert E Hancock Jr. Collection</collection>
+                     <objectName>Armored Vehicle</objectName>
+                  </objectIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <p>A small <objectType>model</objectType> of a rectangular armored vehicle
+                           with treads. Within the treads there are twelve wheels on each side. The
+                           driver and passenger side doors are printed with the text “USN54-25026”.
+                           The cabin of the vehicle is shaped like a rectangular prism with seven
+                           glassless, rectangular windows; two on each side, one in the front and
+                           one in the back. Inside the driver’s seat there is a small bar apparatus
+                           for steering, there is no seat in the passenger side and instead it is
+                           blocked with a console. The front hood has a tow hook and winch,
+                           headlights and a few other various mechanical apparatuses. The back trunk
+                           has a model fire axe and shovel attached to it. <damage>The top of the
+                              vehicle has an antenna that has been bent flat. At several of the hard
+                              corners and edges of the truck, the paint has been touched up with a
+                              slightly different shade of orange.</damage>
+                        </p>
+                     </objectDesc>
+                     <decoDesc>
+                        <p>It is almost entirely painted orange except for its treads which are
+                           black and the suspension wheels within the treads which are green.</p>
+                     </decoDesc>
+                  </physDesc>
+               </object>
+               <object>
+                  <objectIdentifier>
+                     <country>United States of America</country>
+                     <institution>Florida State University</institution>
+                     <repository>FSU Special Collections</repository>
+                     <collection>Robert E Hancock Jr. Collection</collection>
+                     <objectName>Emergency Lantern</objectName>
+                  </objectIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <p>A large, <material>metal</material> emergency
+                              <objectType>lantern</objectType> that is about <dim unit="feet"
+                              quantity="1">1 foot</dim> tall. It is silver colored metal with a
+                           tarnished, dirty exterior. The lantern has a circular fuel tank base that
+                           is about <dim unit="inch" quantity="2">2 inches</dim> tall with HERCULES
+                           printed in large letters on the front of it. There is also a small fuel
+                           cap on the opposite side of the text. On the front of the lamp there is a
+                           piece of paper taped to it that reads “<placeName>LITTLE AMERICA
+                              III</placeName><lb/><persName>ADM RICHARD E BYRD’S</persName><lb/>
+                           <date when="1940">1940</date>-<date when="1941">41</date> EXPEDITION<lb/>
+                           EMERGENCY LAMP <lb/>obt <date when="1957-03-11">3/11/57</date>” Above the
+                           fuel tank there is protective <material>glass</material> around the wick,
+                           this <material>glass</material> is about <dim unit="inch" quantity="4">4
+                              inches</dim> tall and has crisscrossing <material>metal
+                              wire</material> around it. The glass is dirty and clouded. There are
+                           two tubes extending on opposite sides around the glass towards the top
+                           for ventilation. There are holes around the top of the lantern for
+                           ventilation and at the very top there is a loop for hanging the lantern
+                           as well as a handle. </p>
+                     </objectDesc>
+                  </physDesc>
+               </object>
+               <object>
+                  <objectIdentifier>
+                     <country>United States of America</country>
+                     <institution>Florida State University</institution>
+                     <repository>FSU Special Collections</repository>
+                     <collection>Robert E Hancock Jr. Collection</collection>
+                     <objectName>Seabees Plaque</objectName>
+                  </objectIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <p>A large wooden <objectType>plaque</objectType> in the shape of a shield
+                           with a painted circular illustration in the center.</p>
+                     </objectDesc>
+                     <typeDesc>
+                        <p>On the inside of the circle at the very top there is the text “U.S. NAVAL
+                           MOBILE CONSTRUCTION BATTALION (SPECIAL)” in large, capital sans-serif
+                           block letters. The bottom of the circle has text that reads “DEEPFREEZE
+                           II” with ice on top of the letters in the same typeface.</p>
+                     </typeDesc>
+                     <decoDesc>
+                        <p>The illustration is circular with painted rope around it decorated with
+                           snow and ice at the very top. In the bottom left is a gold
+                              <orgName>United States</orgName> Naval Aviator Badge while to the
+                           right is an illustration of a penguin. Featured in the center of the
+                           illustration is a map of Antarctica with small red anchors placed where
+                              <country>American</country> bases are located. Slightly obscuring this
+                           map is a large illustration of the Construction Battalion logo – the
+                           Seabee, a large bee with construction tools – in a winter jacket, hat and
+                           earmuffs. Above the bee is the acronym “IGY” for the International
+                           Geophysical Year along with the years “<date when="1957">1957</date> -
+                              <date when="1958">1958</date>”.</p>
+                     </decoDesc>
+                  </physDesc>
+               </object>
+            </listObject>
+         </p>
+      </body>
+   </text>
+</TEI>

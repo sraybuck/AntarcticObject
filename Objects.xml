@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="out/SectorDesc.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -212,24 +211,6 @@
                            Geophysical Year along with the years “<date when="1957">1957</date> -
                               <date when="1958">1958</date>”.</p>
                      </decoDesc>
-                  </physDesc>
-               </object>
-               <object>
-                  <objectIdentifier> </objectIdentifier>
-                  <physDesc>
-                     <objectDesc>
-                        <p/>
-                        <SectorDesc type="test">Lorem ipsum dolor sit amet, consectetur adipiscing
-                           elit. Aenean porta odio lorem, a suscipit dolor tristique eget. Sed vel
-                           feugiat nisl, ut molestie est. Praesent sed nibh ac diam vestibulum
-                           efficitur. Quisque est leo, rhoncus in ultricies a, maximus eu nisl.
-                           Curabitur massa turpis, fringilla vel blandit eget, cursus in elit.
-                           Curabitur ac pulvinar augue. Fenean hendrerit ipsum sem, nec vestibulum
-                           libero suscipit fringilla. Duis aliquet, orci eget lobortis vulputate,
-                           nisl nisl lacinia eros, at ullamcorper dolor est quis dolor. Maecenas
-                           porttitor, augue sit amet tincidunt viverra, orci odio lacinia quam, et
-                           scelerisque felis magna sit amet turpis.</SectorDesc>
-                     </objectDesc>
                   </physDesc>
                </object>
             </listObject>

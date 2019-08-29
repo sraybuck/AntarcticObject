@@ -45,13 +45,15 @@
             <memberOf key="model.physDescPart"/>
             <memberOf key="model.pLike"/>
             <memberOf key="att.global"/>
-            <memberOf key="att.typed"/>
+            <memberOf key="att.placement"/>
           </classes>
           <content>
             <macroRef key="macro.paraContent"/>
           </content>
           <attList>
-            <attDef ident="type" mode="change" usage="req"/>
+            <attDef ident="place" mode="change">
+              <gloss>specifies a place or general area on an object</gloss>
+            </attDef>
           </attList>
         </elementSpec>
       </schemaSpec>

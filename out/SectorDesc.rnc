@@ -10,7 +10,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2019-08-28T16:29:00Z. .
+# Schema generated from ODD source 2019-08-29T15:25:31Z. .
 # TEI Edition: Version 3.6.0a. Last updated on
 #	27th August 2019, revision ded483f6e
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.6.0a./
@@ -8606,12 +8606,44 @@ SectorDesc =
   element SectorDesc {
     macro.paraContent,
     att.global.attributes,
-    att.typed.attribute.subtype,
     
-    ## characterizes the element in some sense, using any convenient classification scheme or typology.
-    attribute type {
-      xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
-    },
+    ## (specifies a place or general area on an object) specifies where this item is placed.
+    ## Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6] overleaf; 7] above; 8] end; 9] inline; 10] inspace
+    attribute place {
+      list {
+        (
+         ## below the line
+         "below"
+         | 
+           ## at the foot of the page
+           "bottom"
+         | 
+           ## in the margin (left, right, or both)
+           "margin"
+         | 
+           ## at the top of the page
+           "top"
+         | 
+           ## on the opposite, i.e. facing, page
+           "opposite"
+         | 
+           ## on the other side of the leaf
+           "overleaf"
+         | 
+           ## above the line
+           "above"
+         | 
+           ## at the end of e.g. chapter or volume.
+           "end"
+         | 
+           ## within the body of the text.
+           "inline"
+         | 
+           ## in a predefined space, for example left by an earlier scribe.
+           "inspace"
+         | xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" })+
+      }
+    }?,
     empty
   }
 start = TEI

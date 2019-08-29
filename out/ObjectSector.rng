@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2019-08-28T16:55:58Z. .
+Schema generated from ODD source 2019-08-29T16:26:55Z. .
 TEI Edition: Version 3.6.0a. Last updated on
 	27th August 2019, revision ded483f6e
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.6.0a./
@@ -13585,64 +13585,52 @@ Suggested values include: 1] paper; 2] parch (parchment); 3] mixed</a:documentat
       <element name="objectSector">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Object Sector) A division of an object for the purpose of accurate description by abstract or concrete parts</a:documentation>
          <empty/>
-         <ref name="att.global.attribute.n"/>
-         <ref name="att.global.attribute.xmllang"/>
-         <ref name="att.global.attribute.xmlbase"/>
-         <ref name="att.global.attribute.xmlspace"/>
-         <ref name="att.global.rendition.attribute.rend"/>
-         <ref name="att.global.rendition.attribute.style"/>
-         <ref name="att.global.rendition.attribute.rendition"/>
-         <ref name="att.global.linking.attribute.corresp"/>
-         <ref name="att.global.linking.attribute.synch"/>
-         <ref name="att.global.linking.attribute.sameAs"/>
-         <ref name="att.global.linking.attribute.copyOf"/>
-         <ref name="att.global.linking.attribute.next"/>
-         <ref name="att.global.linking.attribute.prev"/>
-         <ref name="att.global.linking.attribute.exclude"/>
-         <ref name="att.global.linking.attribute.select"/>
-         <ref name="att.global.analytic.attribute.ana"/>
-         <ref name="att.global.facs.attribute.facs"/>
-         <ref name="att.global.change.attribute.change"/>
-         <ref name="att.global.responsibility.attribute.cert"/>
-         <ref name="att.global.responsibility.attribute.resp"/>
-         <ref name="att.global.source.attribute.source"/>
-         <ref name="att.coordinated.attributes"/>
-         <attribute name="xml:id">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(identifier) provides a unique identifier for the element bearing the attribute.</a:documentation>
-            <data type="ID"/>
-         </attribute>
-         <attribute name="x">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-            <choice>
-               <data type="double"/>
-               <data type="token">
-                  <param name="pattern">(\-?[\d]+/\-?[\d]+)</param>
-               </data>
-               <data type="decimal"/>
-            </choice>
-         </attribute>
-         <attribute name="y">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-            <choice>
-               <data type="double"/>
-               <data type="token">
-                  <param name="pattern">(\-?[\d]+/\-?[\d]+)</param>
-               </data>
-               <data type="decimal"/>
-            </choice>
-         </attribute>
-         <attribute name="z">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-            <choice>
-               <data type="double"/>
-               <data type="token">
-                  <param name="pattern">(\-?[\d]+/\-?[\d]+)</param>
-               </data>
-               <data type="decimal"/>
-            </choice>
-         </attribute>
+         <ref name="att.global.attributes"/>
+         <ref name="att.3dcoordinates.attributes"/>
          <empty/>
       </element>
+   </define>
+   <define name="att.3dcoordinates.attributes">
+      <ref name="att.3dcoordinates.attribute.x1"/>
+      <ref name="att.3dcoordinates.attribute.y1"/>
+      <ref name="att.3dcoordinates.attribute.x2"/>
+      <ref name="att.3dcoordinates.attribute.y2"/>
+      <ref name="att.3dcoordinates.attribute.depth"/>
+   </define>
+   <define name="att.3dcoordinates.attribute.x1">
+      <optional>
+         <attribute name="x1">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">x value of point 1</a:documentation>
+         </attribute>
+      </optional>
+   </define>
+   <define name="att.3dcoordinates.attribute.y1">
+      <optional>
+         <attribute name="y1">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">y value of point 1</a:documentation>
+         </attribute>
+      </optional>
+   </define>
+   <define name="att.3dcoordinates.attribute.x2">
+      <optional>
+         <attribute name="x2">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">x value of point 2</a:documentation>
+         </attribute>
+      </optional>
+   </define>
+   <define name="att.3dcoordinates.attribute.y2">
+      <optional>
+         <attribute name="y2">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">y value of point 2</a:documentation>
+         </attribute>
+      </optional>
+   </define>
+   <define name="att.3dcoordinates.attribute.depth">
+      <optional>
+         <attribute name="depth">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">depth of the area user is defining</a:documentation>
+         </attribute>
+      </optional>
    </define>
    <start>
       <choice>

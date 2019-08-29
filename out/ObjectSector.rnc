@@ -10,7 +10,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2019-08-28T16:55:52Z. .
+# Schema generated from ODD source 2019-08-29T16:26:48Z. .
 # TEI Edition: Version 3.6.0a. Last updated on
 #	27th August 2019, revision ded483f6e
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.6.0a./
@@ -8604,53 +8604,32 @@ objectSector =
   
   ## (Object Sector) A division of an object for the purpose of accurate description by abstract or concrete parts
   element objectSector {
-    empty,
-    att.global.attribute.n,
-    att.global.attribute.xmllang,
-    att.global.attribute.xmlbase,
-    att.global.attribute.xmlspace,
-    att.global.rendition.attribute.rend,
-    att.global.rendition.attribute.style,
-    att.global.rendition.attribute.rendition,
-    att.global.linking.attribute.corresp,
-    att.global.linking.attribute.synch,
-    att.global.linking.attribute.sameAs,
-    att.global.linking.attribute.copyOf,
-    att.global.linking.attribute.next,
-    att.global.linking.attribute.prev,
-    att.global.linking.attribute.exclude,
-    att.global.linking.attribute.select,
-    att.global.analytic.attribute.ana,
-    att.global.facs.attribute.facs,
-    att.global.change.attribute.change,
-    att.global.responsibility.attribute.cert,
-    att.global.responsibility.attribute.resp,
-    att.global.source.attribute.source,
-    att.coordinated.attributes,
-    
-    ## (identifier) provides a unique identifier for the element bearing the attribute.
-    attribute xml:id { xsd:ID },
-    
-    ##
-    attribute x {
-      xsd:double
-      | xsd:token { pattern = "(\-?[\d]+/\-?[\d]+)" }
-      | xsd:decimal
-    },
-    
-    ##
-    attribute y {
-      xsd:double
-      | xsd:token { pattern = "(\-?[\d]+/\-?[\d]+)" }
-      | xsd:decimal
-    },
-    
-    ##
-    attribute z {
-      xsd:double
-      | xsd:token { pattern = "(\-?[\d]+/\-?[\d]+)" }
-      | xsd:decimal
-    },
-    empty
+    empty, att.global.attributes, att.3dcoordinates.attributes, empty
   }
+att.3dcoordinates.attributes =
+  att.3dcoordinates.attribute.x1,
+  att.3dcoordinates.attribute.y1,
+  att.3dcoordinates.attribute.x2,
+  att.3dcoordinates.attribute.y2,
+  att.3dcoordinates.attribute.depth
+att.3dcoordinates.attribute.x1 =
+  
+  ## x value of point 1
+  attribute x1 { text }?
+att.3dcoordinates.attribute.y1 =
+  
+  ## y value of point 1
+  attribute y1 { text }?
+att.3dcoordinates.attribute.x2 =
+  
+  ## x value of point 2
+  attribute x2 { text }?
+att.3dcoordinates.attribute.y2 =
+  
+  ## y value of point 2
+  attribute y2 { text }?
+att.3dcoordinates.attribute.depth =
+  
+  ## depth of the area user is defining
+  attribute depth { text }?
 start = TEI

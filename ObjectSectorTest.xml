@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="out/ObjectSector.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listObject>
+            <object>
+               <objectIdentifier>
+                  <objectName>Test</objectName>
+               </objectIdentifier>
+               <objectSector x1="5" y1="4" x2="3" y2="7" depth="0" ></objectSector>
+               <physDesc>
+                  <objectDesc> </objectDesc>
+               </physDesc>
+            </object>
+         </listObject>
+      </body>
+   </text>
+</TEI>

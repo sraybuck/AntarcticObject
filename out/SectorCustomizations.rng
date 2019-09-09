@@ -5,9 +5,9 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2019-09-09T15:44:10Z. .
+Schema generated from ODD source 2019-09-09T19:22:38Z. .
 TEI Edition: Version 3.6.0a. Last updated on
-	6th September 2019, revision 306d5a5dc
+	27th August 2019, revision ded483f6e
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.6.0a./
   
 --><!---->
@@ -4440,21 +4440,10 @@ Measures]</a:documentation>
          <ref name="att.ranging.attributes"/>
          <optional>
             <attribute name="type">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the type of numeric value.
-Suggested values include: 1] cardinal; 2] ordinal; 3] fraction; 4] percentage</a:documentation>
-               <choice>
-                  <value>cardinal</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">absolute number, e.g. 21, 21.5</a:documentation>
-                  <value>ordinal</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ordinal number, e.g. 21st</a:documentation>
-                  <value>fraction</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">fraction, e.g. one half or three-quarters</a:documentation>
-                  <value>percentage</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a percentage</a:documentation>
-                  <data type="token">
-                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
-                  </data>
-               </choice>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the type of numeric value.</a:documentation>
+               <data type="token">
+                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+               </data>
             </attribute>
          </optional>
          <optional>
@@ -5715,8 +5704,7 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
          <ref name="att.typed.attribute.subtype"/>
          <optional>
             <attribute name="type">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies what type of generated text division (e.g. index, table of contents, etc.) is to appear.
-Sample values include: 1] index; 2] toc; 3] figlist; 4] tablist</a:documentation>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies what type of generated text division (e.g. index, table of contents, etc.) is to appear.</a:documentation>
                <data type="token">
                   <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
                </data>
@@ -8381,23 +8369,10 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
             <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
                        name="type"
                        a:defaultValue="main">
-               <a:documentation>specifies the role of this subdivision of the title.
-Suggested values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] short; 5] desc (descriptive)</a:documentation>
-               <choice>
-                  <value>main</value>
-                  <a:documentation>main title of the work</a:documentation>
-                  <value>sub</value>
-                  <a:documentation>(subordinate) subtitle of the work</a:documentation>
-                  <value>alt</value>
-                  <a:documentation>(alternate) alternative title of the work</a:documentation>
-                  <value>short</value>
-                  <a:documentation>abbreviated form of title</a:documentation>
-                  <value>desc</value>
-                  <a:documentation>(descriptive) descriptive paraphrase of the work</a:documentation>
-                  <data type="token">
-                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
-                  </data>
-               </choice>
+               <a:documentation>specifies the role of this subdivision of the title.</a:documentation>
+               <data type="token">
+                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+               </data>
             </attribute>
          </optional>
          <empty/>
@@ -10298,9 +10273,9 @@ Sample values include: 1] atBirth; 2] atDeath; 3] dependent; 4] inherited; 5] in
                   <ref name="model.pLike"/>
                </zeroOrMore>
                <group>
-                  <optional>
+                  <zeroOrMore>
                      <ref name="objectSector"/>
-                  </optional>
+                  </zeroOrMore>
                   <optional>
                      <ref name="msContents"/>
                   </optional>

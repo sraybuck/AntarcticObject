@@ -10,9 +10,9 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2019-09-09T15:44:15Z. .
+# Schema generated from ODD source 2019-09-09T19:22:50Z. .
 # TEI Edition: Version 3.6.0a. Last updated on
-#	6th September 2019, revision 306d5a5dc
+#	27th August 2019, revision ded483f6e
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.6.0a./
 #
 
@@ -2632,21 +2632,8 @@ num =
     att.ranging.attributes,
     
     ## indicates the type of numeric value.
-    ## Suggested values include: 1] cardinal; 2] ordinal; 3] fraction; 4] percentage
     attribute type {
-      
-      ## absolute number, e.g. 21, 21.5
-      "cardinal"
-      | 
-        ## ordinal number, e.g. 21st
-        "ordinal"
-      | 
-        ## fraction, e.g. one half or three-quarters
-        "fraction"
-      | 
-        ## a percentage
-        "percentage"
-      | xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
+      xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
     }?,
     
     ## supplies the value of the number in standard form.
@@ -3533,7 +3520,6 @@ divGen =
     att.typed.attribute.subtype,
     
     ## specifies what type of generated text division (e.g. index, table of contents, etc.) is to appear.
-    ## Sample values include: 1] index; 2] toc; 3] figlist; 4] tablist
     attribute type {
       xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
     }?,
@@ -4957,25 +4943,9 @@ titlePart =
     att.typed.attribute.subtype,
     
     ## specifies the role of this subdivision of the title.
-    ## Suggested values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] short; 5] desc (descriptive)
     [ a:defaultValue = "main" ]
     attribute type {
-      
-      ## main title of the work
-      "main"
-      | 
-        ## (subordinate) subtitle of the work
-        "sub"
-      | 
-        ## (alternate) alternative title of the work
-        "alt"
-      | 
-        ## abbreviated form of title
-        "short"
-      | 
-        ## (descriptive) descriptive paraphrase of the work
-        "desc"
-      | xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
+      xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
     }?,
     empty
   }
@@ -6141,7 +6111,7 @@ object =
     (objectIdentifier+,
      model.headLike*,
      (model.pLike*
-      | (objectSector?, msContents?, physDesc?, history?, additional?)),
+      | (objectSector*, msContents?, physDesc?, history?, additional?)),
      (model.noteLike | model.biblLike | linkGrp | link)*,
      object?),
     att.global.attributes,

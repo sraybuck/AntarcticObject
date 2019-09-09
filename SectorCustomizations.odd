@@ -64,7 +64,10 @@
         <elementSpec ident="objectDesc" module="msdescription" mode="change">
           <content>
             <alternate>
-              <classRef key="model.pLike" minOccurs="1" maxOccurs="unbounded"/>
+              <sequence>
+                <classRef key="model.pLike" minOccurs="1" maxOccurs="unbounded"/>
+                <elementRef key="sectorDesc" minOccurs="0" maxOccurs="unbounded"/>
+              </sequence>
               <sequence>
                 <elementRef key="supportDesc" minOccurs="0"/>
                 <elementRef key="layoutDesc" minOccurs="0"/>
@@ -76,14 +79,12 @@
           <gloss>Sector Desc Description</gloss>
           <desc>A subdivision of an object for the purpose of accurate description</desc>
           <classes>
-            <memberOf key="model.physDescPart"/>
-            <memberOf key="model.pLike"/>
             <memberOf key="att.global"/>
             <memberOf key="att.placement"/>
             <memberOf key="att.3dcoordinates"/>
           </classes>
           <content>
-            <macroRef key="macro.paraContent"/>
+            <classRef key="model.pLike" minOccurs="1" maxOccurs="unbounded"/>
           </content>
           <attList>
             <attDef ident="place" mode="change">

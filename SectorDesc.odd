@@ -37,10 +37,9 @@
             </alternate>
           </content>
         </elementSpec>
-        <elementSpec ident="SectorDesc" mode="add">
+        <elementSpec ident="sectorDesc" mode="add">
           <gloss>Object Sector Description</gloss>
-          <desc>A division of an object for the purpose of accurate description by abstract or
-            concrete parts</desc>
+          <desc>A subdivision of an object for the purpose of accurate description</desc>
           <classes>
             <memberOf key="model.physDescPart"/>
             <memberOf key="model.pLike"/>
@@ -56,6 +55,9 @@
             </attDef>
           </attList>
         </elementSpec>
+        <classSpec ident="att.placement" mode="change" type="att">
+          <desc>provides attributes for describing where on an object an element appears. </desc>
+        </classSpec>
       </schemaSpec>
     </body>
   </text>

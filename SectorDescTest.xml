@@ -21,20 +21,98 @@
          <listObject>
             <object>
                <objectIdentifier>
-                  <objectName>Test</objectName>
+                  <institution>Florida State University</institution>
+                  <repository>FSU Special Collections</repository>
+                  <collection>Robert E Hancock Jr. Collection</collection>
+                  <objectName>Navy Icebreaker Model</objectName>
                </objectIdentifier>
                <physDesc>
                   <objectDesc>
-                     <SectorDesc place="bow">Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Aenean porta odio lorem, a suscipit dolor tristique eget. Sed vel
-                        feugiat nisl, ut molestie est. Praesent sed nibh ac diam vestibulum
-                        efficitur. Quisque est leo, rhoncus in ultricies a, maximus eu nisl.
-                        Curabitur massa turpis, fringilla vel blandit eget, cursus in elit.
-                        Curabitur ac pulvinar augue. Fenean hendrerit ipsum sem, nec vestibulum
-                        libero suscipit fringilla. Duis aliquet, orci eget lobortis vulputate, nisl
-                        nisl lacinia eros, at ullamcorper dolor est quis dolor. Maecenas porttitor,
-                        augue sit amet tincidunt viverra, orci odio lacinia quam, et scelerisque
-                        felis magna sit amet turpis.</SectorDesc>
+                     <p>A detailed <objectType>model</objectType> of a wind-class ice breaker ship.
+                        The hull of the ship is painted red while there is grey paint on the sides
+                        above the waterline and on the roof, the deck is a light tan color and the
+                        small propellers at the back of the ship are gold. The ship is labelled
+                        “GB3” in four places along the waterline of the ship, two at either side of
+                        the bow and two at the stern.</p>
+                     <sectorDesc place="deck">Around the entire deck are small guard
+                        rails.</sectorDesc>
+                     <sectorDesc place="bow">At the bow there is a large, gray, armored gun that
+                        sits in the center of the deck. Behind it are two smaller, black, unshielded
+                        guns.</sectorDesc>
+                     <sectorDesc place="sides">On the starboard and port sides there are lifeboats
+                        with cranes.</sectorDesc>
+                     <sectorDesc place="stern">At the stern, there is a helipad and helicopter
+                        hangar with a small orange model of a Sikorsky naval helicopter. At the
+                        stern railing there is a small American flag flying. </sectorDesc>
+                     <sectorDesc place="center">At the center of the ship there is a large radar
+                        unit, broken mast with a variety of maritime flags flying and a large
+                        ventilation shaft.</sectorDesc>
+                  </objectDesc>
+               </physDesc>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <country>United States of America</country>
+                  <institution>Florida State University</institution>
+                  <repository>FSU Special Collections</repository>
+                  <collection>Robert E Hancock Jr. Collection</collection>
+                  <objectName>Armored Vehicle</objectName>
+               </objectIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <p>A small <objectType>model</objectType> of a rectangular armored vehicle with
+                        treads.</p>
+                     <sectorDesc place="interior">The cabin of the vehicle is shaped like a
+                        rectangular prism with seven glassless, rectangular windows; two on each
+                        side, one in the front and one in the back. Inside the driver’s seat there
+                        is a small bar apparatus for steering, there is no seat in the passenger
+                        side and instead it is blocked with a console.</sectorDesc>
+                     <sectorDesc place="exterior">Within the treads there are twelve wheels on each
+                        side. The driver and passenger side doors are printed with the text
+                        “USN54-25026”. The front hood has a tow hook and winch, headlights and a few
+                        other various mechanical apparatuses. The back trunk has a model fire axe
+                        and shovel attached to it. <damage>The top of the vehicle has an antenna
+                           that has been bent flat. At several of the hard corners and edges of the
+                           truck, the paint has been touched up with a slightly different shade of
+                           orange.</damage></sectorDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <p>It is almost entirely painted orange except for its treads, which are black,
+                        and the suspension wheels within the treads, which are green.</p>
+                  </decoDesc>
+               </physDesc>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <institution>Florida State University</institution>
+                  <repository>FSU Special Collections</repository>
+                  <collection>Robert E Hancock Jr. Collection</collection>
+                  <objectName>Emergency Lantern</objectName>
+               </objectIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <p>A large, <material>metal</material> emergency
+                           <objectType>lantern</objectType> that is about <dim unit="feet"
+                           quantity="1">1 foot</dim> tall. It is silver colored metal with a
+                        tarnished, dirty exterior. </p>
+                     <sectorDesc place="base">The lantern has a circular fuel tank base that is
+                        about <dim unit="inch" quantity="2">2 inches</dim> tall with HERCULES
+                        printed in large letters on the front of it. There is also a small fuel cap
+                        on the opposite side of the text. On the front of the lamp there is a piece
+                        of paper taped to it that reads “<placeName>LITTLE AMERICA
+                           III</placeName><lb/><persName>ADM RICHARD E BYRD’S</persName><lb/>
+                        <date when="1940">1940</date>-<date when="1941">41</date> EXPEDITION<lb/>
+                        EMERGENCY LAMP <lb/>obt <date when="1957-03-11">3/11/57</date>”</sectorDesc>
+                     <sectorDesc place="lamp">Above the fuel tank there is protective
+                           <material>glass</material> around the wick, this
+                           <material>glass</material> is about <dim unit="inch" quantity="4">4
+                           inches</dim> tall and has crisscrossing <material>metal wire</material>
+                        around it. The glass is dirty and clouded. There are two tubes extending on
+                        opposite sides around the glass towards the top for
+                        ventilation.</sectorDesc>
+                     <sectorDesc place="lid">There are holes around the top of the lantern for
+                        ventilation and at the very top there is a loop for hanging the lantern as
+                        well as a handle. </sectorDesc>
                   </objectDesc>
                </physDesc>
             </object>

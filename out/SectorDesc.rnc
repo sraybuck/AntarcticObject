@@ -10,7 +10,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2019-08-29T15:25:31Z. .
+# Schema generated from ODD source 2019-09-04T15:39:06Z. .
 # TEI Edition: Version 3.6.0a. Last updated on
 #	27th August 2019, revision ded483f6e
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.6.0a./
@@ -1697,12 +1697,12 @@ model.lLike_sequence = l
 model.lLike_sequenceOptional = l?
 model.lLike_sequenceOptionalRepeatable = l*
 model.lLike_sequenceRepeatable = l+
-model.pLike = p | ab | SectorDesc
-model.pLike_alternation = p | ab | SectorDesc
-model.pLike_sequence = p, ab, SectorDesc
-model.pLike_sequenceOptional = p?, ab?, SectorDesc?
-model.pLike_sequenceOptionalRepeatable = p*, ab*, SectorDesc*
-model.pLike_sequenceRepeatable = p+, ab+, SectorDesc+
+model.pLike = p | ab | sectorDesc
+model.pLike_alternation = p | ab | sectorDesc
+model.pLike_sequence = p, ab, sectorDesc
+model.pLike_sequenceOptional = p?, ab?, sectorDesc?
+model.pLike_sequenceOptionalRepeatable = p*, ab*, sectorDesc*
+model.pLike_sequenceRepeatable = p+, ab+, sectorDesc+
 model.stageLike = stage
 model.stageLike_alternation = stage
 model.stageLike_sequence = stage
@@ -8256,7 +8256,7 @@ physDesc =
      bindingDesc?,
      sealDesc?,
      accMat?,
-     SectorDesc?),
+     sectorDesc?),
     att.global.attributes,
     empty
   }
@@ -8600,10 +8600,10 @@ msFrag =
     att.typed.attributes,
     empty
   }
-SectorDesc =
+sectorDesc =
   
   ## (Object Sector Description) A division of an object for the purpose of accurate description by abstract or concrete parts
-  element SectorDesc {
+  element sectorDesc {
     macro.paraContent,
     att.global.attributes,
     

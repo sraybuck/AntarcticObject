@@ -26,6 +26,7 @@
         <moduleRef key="analysis"/>
         <moduleRef key="linking"/>
         <moduleRef key="msdescription"/>
+        <moduleRef key="tagdocs" include="gi"/>
         <elementSpec ident="objectSector" mode="add">
           <gloss>Object Sector</gloss>
           <desc>A division of an object for the purpose of accurate description by abstract or

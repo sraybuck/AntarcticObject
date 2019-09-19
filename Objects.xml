@@ -3,13 +3,13 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title>Objects encoded with the <gi>object</gi> Element</title>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <p>Working draft - Published (preliminarily) on GitHub</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>Written by Suzanne Raybuck as a part of her Editing, Writing, and Media internship (with Sarah Stanley)</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>

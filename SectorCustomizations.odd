@@ -111,6 +111,12 @@
                 <dataRef key="tei.numeric"/>
               </datatype>
             </attDef>
+            <attDef ident="z1" mode="add">
+              <desc>z value of point 1</desc>
+              <datatype>
+                <dataRef key="tei.numeric"/>
+              </datatype>
+            </attDef>
             <attDef ident="x2" mode="add">
               <desc>x value of point 2</desc>
               <datatype>
@@ -123,8 +129,8 @@
                 <dataRef key="tei.numeric"/>
               </datatype>
             </attDef>
-            <attDef ident="depth" mode="add">
-              <desc>depth of the area user is defining</desc>
+            <attDef ident="z2" mode="add">
+              <desc>z value of point 2</desc>
               <datatype>
                 <dataRef key="tei.numeric"/>
               </datatype>

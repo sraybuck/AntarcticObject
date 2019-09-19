@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2019-09-09T20:06:17Z. .
+Schema generated from ODD source 2019-09-19T09:11:23Z. .
 TEI Edition: Version 3.6.0a. Last updated on
 	27th August 2019, revision ded483f6e
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.6.0a./
@@ -13639,9 +13639,10 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
    <define name="att.3dcoordinates.attributes">
       <ref name="att.3dcoordinates.attribute.x1"/>
       <ref name="att.3dcoordinates.attribute.y1"/>
+      <ref name="att.3dcoordinates.attribute.z1"/>
       <ref name="att.3dcoordinates.attribute.x2"/>
       <ref name="att.3dcoordinates.attribute.y2"/>
-      <ref name="att.3dcoordinates.attribute.depth"/>
+      <ref name="att.3dcoordinates.attribute.z2"/>
    </define>
    <define name="att.3dcoordinates.attribute.x1">
       <optional>
@@ -13654,6 +13655,13 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
       <optional>
          <attribute name="y1">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">y value of point 1</a:documentation>
+         </attribute>
+      </optional>
+   </define>
+   <define name="att.3dcoordinates.attribute.z1">
+      <optional>
+         <attribute name="z1">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">z value of point 1</a:documentation>
          </attribute>
       </optional>
    </define>
@@ -13671,10 +13679,10 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
          </attribute>
       </optional>
    </define>
-   <define name="att.3dcoordinates.attribute.depth">
+   <define name="att.3dcoordinates.attribute.z2">
       <optional>
-         <attribute name="depth">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">depth of the area user is defining</a:documentation>
+         <attribute name="z2">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">z value of point 2</a:documentation>
          </attribute>
       </optional>
    </define>

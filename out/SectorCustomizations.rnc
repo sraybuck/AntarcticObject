@@ -10,7 +10,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2019-09-09T20:06:33Z. .
+# Schema generated from ODD source 2019-09-19T09:11:32Z. .
 # TEI Edition: Version 3.6.0a. Last updated on
 #	27th August 2019, revision ded483f6e
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.6.0a./
@@ -8660,9 +8660,10 @@ sectorDesc =
 att.3dcoordinates.attributes =
   att.3dcoordinates.attribute.x1,
   att.3dcoordinates.attribute.y1,
+  att.3dcoordinates.attribute.z1,
   att.3dcoordinates.attribute.x2,
   att.3dcoordinates.attribute.y2,
-  att.3dcoordinates.attribute.depth
+  att.3dcoordinates.attribute.z2
 att.3dcoordinates.attribute.x1 =
   
   ## x value of point 1
@@ -8671,6 +8672,10 @@ att.3dcoordinates.attribute.y1 =
   
   ## y value of point 1
   attribute y1 { text }?
+att.3dcoordinates.attribute.z1 =
+  
+  ## z value of point 1
+  attribute z1 { text }?
 att.3dcoordinates.attribute.x2 =
   
   ## x value of point 2
@@ -8679,8 +8684,8 @@ att.3dcoordinates.attribute.y2 =
   
   ## y value of point 2
   attribute y2 { text }?
-att.3dcoordinates.attribute.depth =
+att.3dcoordinates.attribute.z2 =
   
-  ## depth of the area user is defining
-  attribute depth { text }?
+  ## z value of point 2
+  attribute z2 { text }?
 start = TEI

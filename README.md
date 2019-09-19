@@ -2,6 +2,8 @@
 
 **An Exploration of &#60;object&#62; Using Antarctic Artifacts**
 
+**View a 3D Model of one of the objects here: [https://sketchfab.com/3d-models/penguin-test-scan-ply-ca26780971fa44c68669a1dfda4942b8]**
+
 This repository contains the files for a project on the newly added &#60;object&#62; element and its use when describing the physical appearance of objects. The goal of this project was to evaluate the current implementation of &#60;object&#62; and more specifically its child elements relating to physical description. We concluded that it may be helpful to include a way to subdivide or section off parts of objects since so much of our prose description ended up referencing different abstract or concrete parts of the object. Below is a list of all our files and their purposes:
 
 * Objects.xml - our initial description of our six objects using the current implementation of &#60;object&#62;
